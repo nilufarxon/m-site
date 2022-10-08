@@ -1,0 +1,35 @@
+.info {
+  padding: 175px;
+}
+.info__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info__card {
+  width: 314px;
+  text-align: center;
+}
+.info__card h3 {
+  font-family: "DM Serif Display", serif;
+  font-size: 25px;
+  line-height: 39px;
+  letter-spacing: 0.22px;
+  color: #292f36;
+}
+.info__card p {
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  color: #4d5053;
+  margin: 17px 0 68px;
+}
+.info__card a {
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  color: #4d5053;
+}
+.info__card i {
+  color: rgba(205, 162, 116, 1);
+}

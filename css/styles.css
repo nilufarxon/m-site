@@ -1,0 +1,391 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  font-weight: 400;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 106px;
+  padding: 38px 0;
+}
+
+.header__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__item + .header__item {
+  margin-left: 40px;
+}
+
+.header__link {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+  color: #292f36;
+  transition: 0.8s;
+}
+
+.header__link:hover {
+  color: #cda274;
+}
+
+.furniture {
+  background-image: url(/img/furniture-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px 0px 0px 290px;
+  height: 831px;
+  padding: 188px 0 0;
+}
+
+.furniture__info {
+  width: 600px;
+}
+
+.furniture__info h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 80px;
+  line-height: 96px;
+  letter-spacing: 0.22px;
+  color: #292f36;
+}
+
+.furniture__info p {
+  margin: 19px 0 35px;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  color: #4d5053;
+}
+
+.furniture__info button {
+  width: 207px;
+  height: 71px;
+  background: #292f36;
+  border: 2px solid #292f36;
+  border-radius: 18px;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.72px;
+  color: #ffffff;
+}
+
+.furniture__info i {
+  margin-left: 20px;
+  font-size: 27px;
+  color: rgb(205, 162, 116);
+}
+
+.info {
+  padding: 175px;
+}
+
+.info__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info__card {
+  width: 314px;
+  text-align: center;
+}
+
+.info__card h3 {
+  font-family: "DM Serif Display", serif;
+  font-size: 25px;
+  line-height: 39px;
+  letter-spacing: 0.22px;
+  color: #292f36;
+}
+
+.info__card p {
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  color: #4d5053;
+  margin: 17px 0 68px;
+}
+
+.info__card a {
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  color: #4d5053;
+}
+
+.info__card i {
+  color: rgb(205, 162, 116);
+}
+
+.wrapper {
+  position: relative;
+}
+
+.wrapper__info h2 {
+  width: 450px;
+  font-family: "DM Serif Display";
+  font-size: 50px;
+  line-height: 65px;
+  letter-spacing: 0.22px;
+  color: #292f36;
+}
+
+.wrapper__info p {
+  width: 531px;
+  font-size: 22px;
+  margin: 42px 0;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  color: #4d5053;
+}
+
+.wrapper__info button {
+  width: 263px;
+  height: 71px;
+  background: #292f36;
+  border: 2px solid #292f36;
+  border-radius: 18px;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.72px;
+  color: #ffffff;
+}
+
+.wrapper__info i {
+  color: rgb(205, 162, 116);
+}
+
+.wrapper__picture {
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+}
+
+.wrapper__inner-flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.wrapper__inner-flex i {
+  width: 93px;
+  height: 93px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  background: #f4f0ec;
+  border-radius: 100px;
+  margin-right: 21px;
+}
+
+.people__info {
+  margin: 140px 0 0;
+  height: 675px;
+  background: #f4f0ec;
+  border-radius: 70px;
+  padding: 103px 0 0;
+}
+
+.people__info h1 {
+  font-family: "DM Serif Display";
+  width: 479px;
+  margin: 0 auto;
+  font-size: 45px;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  margin-bottom: 47px;
+  color: #292f36;
+}
+
+.people__info-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.people__info-card {
+  height: 287px;
+  width: 354px;
+  padding: 50px 0 0 35px;
+  background: #ffffff;
+  border-radius: 30px;
+}
+
+.people__info-inner__flex {
+  display: flex;
+  align-items: center;
+}
+
+.people__info-inner__flex img {
+  margin-right: 20px;
+}
+
+.people__inner-info h4 {
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  line-height: 38px;
+  letter-spacing: 0.22px;
+  color: #292f36;
+}
+
+.people__inner-info h5 {
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.22px;
+  color: #4d5053;
+}
+
+.people__info-card p {
+  width: 245px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.22px;
+  margin-top: 32px;
+  color: #4d5053;
+}
+
+.sponsor {
+  padding: 140px 0;
+}
+
+.sponsor__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.room__title {
+  font-family: "DM Serif Display", serif;
+  font-size: 47px;
+  line-height: 62px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #292f36;
+}
+
+.room__subtitle {
+  width: 786px;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #4d5053;
+  margin: 20px auto 71px;
+}
+
+.room__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.room__card h3 {
+  font-family: "DM Serif Display", serif;
+  font-size: 24px;
+  line-height: 38px;
+  margin-top: 24px;
+  letter-spacing: 0.22px;
+  color: #292f36;
+}
+
+.room__card p {
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  color: #4d5053;
+  margin-bottom: 61px;
+}
+
+.prodject {
+  background: #f4f0ec;
+  height: 475px;
+  padding: 140px 0;
+}
+
+.prodject__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prodject__info h1 {
+  font-family: "DM Serif Display";
+  font-size: 85px;
+  line-height: 128px;
+  text-align: center;
+  letter-spacing: 1.7px;
+  color: #cda274;
+}
+
+.prodject__border {
+  width: 1px;
+  height: 195px;
+  background: #cda274;
+}
+
+.room__info {
+  padding: 143px 0 100px;
+}
+
+.room__info-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.room__info-card {
+  width: 387px;
+  height: 515px;
+  padding: 21px 21px 0;
+  margin-bottom: 40px;
+  border: 1px solid #e7e7e7;
+  border-radius: 62px;
+}
+
+/*# sourceMappingURL=styles.css.map */

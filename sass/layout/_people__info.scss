@@ -1,0 +1,58 @@
+.people__info {
+  margin: 140px 0 0;
+  height: 675px;
+  background: #f4f0ec;
+  border-radius: 70px;
+  padding: 103px 0 0;
+}
+.people__info h1 {
+  font-family: "DM Serif Display";
+  width: 479px;
+  margin: 0 auto;
+  font-size: 45px;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  margin-bottom: 47px;
+  color: #292f36;
+}
+.people__info-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.people__info-card {
+  height: 287px;
+  width: 354px;
+  padding: 50px 0 0 35px;
+  background: #ffffff;
+  border-radius: 30px;
+}
+.people__info-inner__flex {
+  display: flex;
+  align-items: center;
+}
+.people__info-inner__flex img {
+  margin-right: 20px;
+}
+.people__inner-info h4 {
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  line-height: 38px;
+  letter-spacing: 0.22px;
+  color: #292f36;
+}
+.people__inner-info h5 {
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.22px;
+  color: #4d5053;
+}
+.people__info-card p {
+  width: 245px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.22px;
+  margin-top: 32px;
+  color: #4d5053;
+}

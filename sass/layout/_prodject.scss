@@ -1,0 +1,23 @@
+.prodject {
+  background: #f4f0ec;
+  height: 475px;
+  padding: 140px 0;
+}
+.prodject__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.prodject__info h1 {
+  font-family: "DM Serif Display";
+  font-size: 85px;
+  line-height: 128px;
+  text-align: center;
+  letter-spacing: 1.7px;
+  color: #cda274;
+}
+.prodject__border {
+  width: 1px;
+  height: 195px;
+  background: #cda274;
+}

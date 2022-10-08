@@ -1,0 +1,27 @@
+.header {
+  height: 106px;
+  padding: 38px 0;
+}
+.header__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__item + .header__item {
+  margin-left: 40px;
+}
+.header__link {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+  color: #292f36;
+  transition: 0.8s;
+}
+.header__link:hover {
+  color: #cda274;
+}

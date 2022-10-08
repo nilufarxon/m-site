@@ -1,0 +1,54 @@
+.wrapper {
+  position: relative;
+}
+.wrapper__info h2 {
+  width: 450px;
+  font-family: "DM Serif Display";
+  font-size: 50px;
+  line-height: 65px;
+  letter-spacing: 0.22px;
+  color: #292f36;
+}
+.wrapper__info p {
+  width: 531px;
+  font-size: 22px;
+  margin: 42px 0;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  color: #4d5053;
+}
+.wrapper__info button {
+  width: 263px;
+  height: 71px;
+  background: #292f36;
+  border: 2px solid #292f36;
+  border-radius: 18px;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.72px;
+  color: #ffffff;
+}
+.wrapper__info i {
+  color: rgba(205, 162, 116, 1);
+}
+.wrapper__picture {
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+}
+.wrapper__inner-flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.wrapper__inner-flex i {
+  width: 93px;
+  height: 93px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  background: #f4f0ec;
+  border-radius: 100px;
+  margin-right: 21px;
+}

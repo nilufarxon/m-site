@@ -1,0 +1,41 @@
+.furniture {
+  background-image: url(/img/furniture-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px 0px 0px 290px;
+  height: 831px;
+  padding: 188px 0 0;
+}
+.furniture__info {
+  width: 600px;
+}
+.furniture__info h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 80px;
+  line-height: 96px;
+  letter-spacing: 0.22px;
+  color: #292f36;
+}
+.furniture__info p {
+  margin: 19px 0 35px;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  color: #4d5053;
+}
+.furniture__info button {
+  width: 207px;
+  height: 71px;
+  background: #292f36;
+  border: 2px solid #292f36;
+  border-radius: 18px;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.72px;
+  color: #ffffff;
+}
+.furniture__info i {
+  margin-left: 20px;
+  font-size: 27px;
+  color: rgba(205, 162, 116, 1);
+}

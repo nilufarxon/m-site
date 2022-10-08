@@ -1,0 +1,37 @@
+.room__title {
+  font-family: "DM Serif Display", serif;
+  font-size: 47px;
+  line-height: 62px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #292f36;
+}
+.room__subtitle {
+  width: 786px;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #4d5053;
+  margin: 20px auto 71px;
+}
+.room__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.room__card h3 {
+  font-family: "DM Serif Display", serif;
+  font-size: 24px;
+  line-height: 38px;
+  margin-top: 24px;
+  letter-spacing: 0.22px;
+  color: #292f36;
+}
+.room__card p {
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  color: #4d5053;
+  margin-bottom: 61px;
+}
